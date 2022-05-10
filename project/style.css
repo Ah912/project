@@ -1,0 +1,170 @@
+body
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: cornsilk;
+    direction: rtl;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+
+}
+header
+{
+    background: #000000;
+    color: aliceblue;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: aquamarine 5px solid;
+
+
+}
+header a
+{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 19px;
+
+
+
+
+}
+header li{
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+header #brand
+{
+    float: right;
+
+}
+header #brand h1
+{
+    margin: 0;
+    color: rgb(0, 255, 242);
+    
+}
+header nav
+{
+    float: left;
+    margin-top: 20px;
+
+
+}
+header .current a
+{
+    color: rgb(0, 204, 255) ;
+    font-weight: bold;
+
+}
+header a:hover
+{
+    color: aqua;
+    font-weight: bold;
+    
+}
+#showcase
+{
+    max-height: 500px;
+    background: url("../image/مؤسسه\ عقيل\ .jfif") no-repeat center;
+    background-size: cover;
+}
+#newsletter
+{
+    padding: 15px;
+    color: aliceblue;
+    background: #353637;
+}
+#newsletter h1
+{
+    float: right;
+}
+#newsletter form
+{
+    float: left;
+    margin-top: 15px;
+}
+#newsletter input[type="email"]
+{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button
+{
+    height: 38px;
+    background: beige;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: blue;
+}
+#boxes
+{
+    margin-top: 20px;
+
+}
+#boxes .catalog
+{
+    float: right;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+
+}
+footer
+{
+    padding: 20px;
+    margin-top: 20px;
+    color: aqua;
+    background-color: rgb(2, 2, 2);
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+@media(max-width:768px)
+{
+    header #brand,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .catalog
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header
+    {
+        padding-bottom: 20px;
+    
+    }
+    #newsletter .button
+    {
+        display: block;
+        width: 100%;
+        
+        
+
+
+    }
+    #newsletter from input [type="email"]
+    {
+        width: 100%;
+        margin-bottom: 5px;
+        
+    }
+}
